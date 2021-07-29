@@ -1,0 +1,335 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*--===INavbar CSS Code===--*/
+.header__bg{
+    background: #264653;
+}
+.honda h1{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: -20px;
+    font-weight: 900;
+}
+.sub__title{
+    font-size: 12px;
+    margin-top: 25px;
+    color: #fff;
+}
+.main__menu li a{
+    margin-left: 36px;
+    color: #fff;
+    font-size: 16px;
+}
+.login__page a{
+    text-decoration: none;
+    background: #E76F51;
+    border-radius: 5px;
+    padding: 10px 24px;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 36px;
+}
+/*--===Image/slide CSS===--*/
+.signel__text{
+    font-size: 14px;
+}
+.signel__div h1{
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+.signel__div p{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 21px;
+}
+.signel__div button{
+    background: #E76F51;
+    border: none;
+    padding: 10px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+/*--===Futured-Image CSS===--*/
+.futured-para{
+    font-size: 14px;
+    color: #E76F51;
+    position: relative;
+    margin-bottom: 100px;
+}
+.futured-para::before{
+    position: absolute;
+    left: 48%;
+    top: 25px;
+    content: "";
+    width: 55px;
+    height: 1px;
+    background: #E76F51;
+}
+.card__img img{
+    height: 243px;
+    width: 288px;
+    margin: 12px auto;
+    filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
+}
+.card__img:hover img{
+    filter: none;
+    transform: scale(1.1);
+}
+.card__box{
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+/*--===Lastest CSS===--*/
+.single__card{
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
+.single__card img{
+    height: 256px;
+    margin-bottom: 40px;
+}
+.single__card p{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.single__card a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E76F51;
+    border: 1px solid #E76F51;
+    transition: all 0.3s ease-in-out;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.single__card a:hover{
+    background: #E76F51;
+    color: #fff;
+}
+/*--===Happy-Client CSS===--*/
+.title__color{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    margin-bottom: 52px;
+}
+.title__color span{
+    color: #E76F51;
+}
+.client__card{
+    padding: 40px 35px;
+}
+.client__card img{
+    width: 150px;
+    margin: auto;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.client__info{
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+}
+.fa-star{
+    width: 18px;
+    height: 18px;
+}
+.fa-star.filed{
+    color:#E77C40;
+}
+.enroll{
+    color: #E77C40;
+}
+.client__details{
+    font-size: 14px;
+    font-weight: 600;
+}
+.client__details span{
+    margin: 15px 0;
+    color: #23A6F0;
+}
+/*--===Skill CSS===--*/
+.OutBox{
+    height: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    background:#e7e7e7;
+}
+.InnerBox{
+    width: 95%;
+    height: 10px;
+    background:#E77C40;
+    animation: Cornering 4s ease-in-out forwards;
+}
+.OutBox2{
+    height: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    background:#e7e7e7;
+}
+.InnerBox2{
+    width: 75%;
+    height: 10px;
+    background:#E77C40;
+    animation: Descending 4s ease-in-out forwards;
+}
+.OutBox3{
+    height: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    background:#e7e7e7 ;
+}
+.InnerBox3{
+    width: 60%;
+    height: 10px;
+    background:#E77C40;
+    animation: Bumping 4s ease-in-out forwards;
+}
+.OutBox4{
+    height: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    background:#e7e7e7 ;
+}
+.InnerBox4{
+    width: 49%;
+    height: 10px;
+    background:#E77C40;
+    animation: Balance 4s ease-in-out forwards;
+}
+.OutBox5{
+    height: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    background:#e7e7e7 ;
+}
+.InnerBox5{
+    width: 75%;
+    height: 10px;
+    background:#E77C40;
+    animation: Pedal 4s ease-in-out forwards;
+}
+.OutBox6{
+    height: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    background:#e7e7e7 ;
+}
+.InnerBox6{
+    width: 60%;
+    height: 10px;
+    background:#E77C40;
+    animation: Technical 4s ease-in-out forwards;
+}
+@keyframes Cornering {
+    0%{
+        width: 0;
+    }
+    95%{
+        width: 95%;
+    }
+}
+@keyframes Descending {
+    0%{
+        width: 0;
+    }
+    95%{
+        width: 75%;
+    }
+}
+@keyframes Bumping {
+    0%{
+        width: 0;
+    }
+    95%{
+        width: 60%;
+    }
+}
+@keyframes Balance {
+    0%{
+        width: 0;
+    }
+    95%{
+        width: 49%;
+    }
+}
+@keyframes Pedal {
+    0%{
+        width: 0;
+    }
+    95%{
+        width: 75%;
+    }
+}
+@keyframes Technical {
+    0%{
+        width: 0;
+    }
+    95%{
+        width: 60%;
+    }
+}
+/*--===Contact-US CSS===--*/
+.info-grap{
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    padding: 30px;
+}
+.contact__info i{
+    font-size: 20px;
+    color: #E77C40;
+    float: left;
+    width: 44px;
+    height: 44px;
+    border: 1px solid #E77C40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+.contact__info i:hover{
+    color: #fff;
+    background: #E77C40;
+}
+.contact__info .info h3{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.contact__info .info p{
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #444444;
+}
+.contact__form{
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
+    padding: 30px;
+    background: #fff;
+}
+.form-group{
+    padding-bottom: 8px;
+}
+.contact__form button[type="submit"] {
+    background: #E77C40;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+}
